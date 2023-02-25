@@ -952,7 +952,7 @@ img {
 }
 
 .input-check:checked+.check-text::before {
-    background-color: green;
+    background-color: #404BBF;
     border: none;
     background-image: url(../images/vector.svg);
     background-repeat: no-repeat;
@@ -960,7 +960,7 @@ img {
 }
 
 .input-check:focus+.check-text::before {
-    background-color: green;
+    background-color: #404BBF;
 }
 
 .input-check {
