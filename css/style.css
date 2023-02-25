@@ -453,7 +453,7 @@ body {
 .soc-media-container {
     padding-top: 100px;
     padding-bottom: 130px;
-    margin-right: 80px;
+    /* margin-right: 80px; */
 }
 
 .soc-list-footer {
@@ -490,68 +490,75 @@ body {
 }
 
 /* ---------------- */
-
 .subscribe-form {
-    padding-top: 100px;
-    padding-bottom: 130px;
+    margin-top: 100px;
 }
 
-.text-form-footer {
+.input-subscribe {
+    display: block;
+    margin-right: 24px;
+    padding-left: 16px;
+    width: 264px;
+    height: 40px;
+    outline: none;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+    border-radius: 4px;
+    background-color: transparent;
+    color: rgba(117, 117, 117, 0.5);
+    font-size: 12px;
+    line-height: 2;
+    align-items: center;
+    letter-spacing: 0.04em;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.input-subscribe:is(:hover, :focus) {
+    border-color: #4D5AE5;
+}
+
+.forma-subscribe {
     display: flex;
+}
+
+.text-subscribe {
+    margin-right: 16px;
+}
+
+.btn-style-subscribe {
+    display: flex;
+    padding: 0;
+    border: none;
+    border-color: rebeccapurple;
+    width: 165px;
+    height: 40px;
+    border-radius: 4px;
+    justify-content: center;
+    align-items: center;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    background: #4D5AE5;
+    color: #ffffff;
+    transition-property: background-color, color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.btn-style-subscribe:is(:hover, :focus) {
+    cursor: pointer;
+    color: #ffffff;
+    background-color: #404BBF;
+}
+
+.title-subscribe {
     margin-bottom: 16px;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #FFFFFF;
-}
-
-.label-subscribe-form {
-    margin-right: 24px;
-}
-
-.input-style {
-    border: 1px solid rgba(255, 255, 255, 0.3);
-    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
-    border-radius: 4px;
-    background-color: transparent;
-    width: 264px;
-    height: 40px;
-    padding-left: 16px;
-}
-
-.btn-style-subscribe {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 24px;
-    width: 165px;
-    height: 40px;
-    padding: 8px 24px;
-    background-color: #4D5AE5;
-    color: #fff;
-    border: none;
-    border-radius: 4px;
-    font-size: 16px;
-    cursor: pointer;
-
-}
-
-.text-subscribe {
-    margin-right: 10px;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5x;
-}
-
-.sub-wrap {
-    position: relative;
-}
-
-.bt {
-    position: absolute;
-    top: 42px;
-    left: 285px;
+    color: #ffffff;
 }
 
 /*---------------Portfolio Page--------------- */
