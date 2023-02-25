@@ -910,9 +910,8 @@ img {
 .btn-modal-field {
     /* margin-right: auto;
     margin-left: auto; */
-    padding-left: 119px;
-    padding-right: 120px;
-    padding-bottom: 24px;
+    padding-left: 95px;
+
 }
 
 .btn-modal {
@@ -981,4 +980,12 @@ img {
 
 .input-check {
     display: none;
+}
+
+.modal-field-policy {
+    margin-bottom: 24px;
+}
+
+.modal-field-comment {
+    margin-bottom: 16px;
 }
