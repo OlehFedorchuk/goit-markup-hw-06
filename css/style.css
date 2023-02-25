@@ -928,8 +928,23 @@ img {
 
 }
 
-.btn-text {
+.btn-modal:is(:hover, :focus) {
+    /* width: 169px;
+        height: 56px;
+        left: 20px;
+        top: 88px; */
+    background: #404BBF;
+    /* box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+        border-radius: 4px; */
+}
+
+.btn-text-modal {
     color: #ffffff;
+}
+
+.btn-text-modal:is(:hover, :focus) {
+    background: #404BBF;
+
 }
 
 .check-text {
@@ -940,6 +955,7 @@ img {
     letter-spacing: 0.04em;
     color: #757575;
 }
+
 
 .check-text::before {
     content: "";
@@ -959,14 +975,10 @@ img {
     background-position: center;
 }
 
-.input-check:focus+.check-text::before {
+.input-check:is(:hover, :focus)+.check-text::before {
     background-color: #404BBF;
 }
 
 .input-check {
     display: none;
 }
-
-/* .modal-icon:is(:hover, :focus) {
-    fill: #4D5AE5;
-} */
