@@ -913,6 +913,25 @@ img {
     margin-bottom: 8px;
 }
 
+.btn-modal-field {
+    /* margin-right: auto;
+    margin-left: auto; */
+    padding-left: 119px;
+}
+
+.btn-modal {
+    width: 169px;
+    height: 56px;
+    left: 635px;
+    top: 584px;
+    background: #4D5AE5;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    border: #4D5AE5;
+
+}
+
+
 /* .modal-icon:is(:hover, :focus) {
     fill: #4D5AE5;
 } */
