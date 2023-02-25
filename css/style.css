@@ -818,7 +818,7 @@ img {
 }
 
 .btn-modal {
-    width: 169px;
+    width: 165px;
     height: 56px;
     left: 635px;
     top: 584px;
@@ -827,8 +827,9 @@ img {
     border-radius: 4px;
     border: #4D5AE5;
     padding: 0;
-    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
-
+    transition-property: background-color, color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .btn-modal:is(:hover, :focus) {
