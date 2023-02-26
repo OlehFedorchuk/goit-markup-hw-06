@@ -784,7 +784,7 @@ img {
     border: 1px solid rgba(33, 33, 33, 0.2);
     border-radius: 4px;
     background-color: transparent;
-    margin-bottom: 8px;
+
     padding: 16px;
     resize: none;
 }
@@ -792,6 +792,10 @@ img {
 .input-wrap {
     position: relative;
     margin-bottom: 8px;
+}
+
+.input-wrap-textarea {
+    margin-bottom: 16px;
 }
 
 .modal-icon {
@@ -815,7 +819,7 @@ img {
 
 
 
-/* hbdjhcbjdhcbjhbcjbjbjhvbjvbjfbvjfvbf */
+/* ------ */
 
 .btn-modal {
     display: block;
