@@ -784,7 +784,6 @@ img {
     border: 1px solid rgba(33, 33, 33, 0.2);
     border-radius: 4px;
     background-color: transparent;
-
     padding: 16px;
     resize: none;
 }
@@ -882,6 +881,9 @@ img {
 
 .input-check:is(:hover, :focus)+.check-text::before {
     background-color: #404BBF;
+    background-image: url(../images/vector.svg);
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .input-check {
