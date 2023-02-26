@@ -368,72 +368,59 @@
         </div>
         <!-- ------------------------------------------- -->
     </footer>
-    <div class="backdrop is-hidden" data-modal>
+    <!-- is-hidden -->
+    <div class="backdrop " data-modal>
         <div class="modal">
-            <form>
-                <button type="button" class="modal-close" data-modal-close>
-                    <svg class="modal-close-icon" width="8" height="8">
-                        <use href="./images/icons.svg#icon-close-x"></use>
-                    </svg>
-                </button>
-            </form>
+
+            <button type="button" class="modal-close" data-modal-close>
+                <svg class="modal-close-icon" width="8" height="8">
+                    <use href="./images/icons.svg#icon-close-x"></use>
+                </svg>
+            </button>
+
             <p class="modal-title">Leave your contacts and we will call you back</p>
+
             <form class="modal-form">
-                <div class="modal-field">
-                    <div class="input-wrap">
-                        <label class="label-title" for="user-name">Name</label>
-                        <input class="modal-input" type="text" name="user-name" id="user-name">
-                        <svg class="modal-icon" width="18" height="18">
-                            <use href="./images/icons.svg#icon-person"></use>
-                        </svg>
-                    </div>
+                <div class="input-wrap">
+                    <label class="label-title" for="user-name">Name</label>
+                    <input class="modal-input" type="text" name="user-name" id="user-name">
+                    <svg class="modal-icon" width="18" height="18">
+                        <use href="./images/icons.svg#icon-person"></use>
+                    </svg>
+                </div>
+                <div class="input-wrap">
+                    <label class="label-title" for="user-tel">Phone</label>
+                    <input class="modal-input" id="user-tel" type="number" name="user-tel">
+                    <svg class="modal-icon" width="18" height="18">
+                        <use href="./images/icons.svg#icon-phone"></use>
+                    </svg>
+                </div>
+                <div class="input-wrap">
+                    <label class="label-title" for="user-email">Email</label>
+                    <input class="modal-input" id="user-email" type="email" name="user-email">
+                    <svg class="modal-icon" width="18" height="18">
+                        <use href="./images/icons.svg#icon-email"></use>
+                    </svg>
+                </div>
+
+                <div class="input-wrap">
+                    <label class="label-title" for="user-text">Comment</label>
+                    <textarea class="textarea-text" id="user-text" placeholder="Text input"></textarea>
 
                 </div>
 
-                <div class="modal-field">
-                    <div class="input-wrap">
-                        <label class="label-title" for="user-tel">Phone</label>
-                        <input class="modal-input" id="user-tel" type="number" name="user-tel">
-                        <svg class="modal-icon" width="18" height="18">
-                            <use href="./images/icons.svg#icon-phone"></use>
-                        </svg>
-                    </div>
 
-
-                </div>
-                <div class="modal-field">
-                    <div class="input-wrap">
-                        <label class="label-title" for="user-email">Email</label>
-                        <input class="modal-input" id="user-email" type="email" name="user-email">
-                        <svg class="modal-icon" width="18" height="18">
-                            <use href="./images/icons.svg#icon-email"></use>
-                        </svg>
-                    </div>
-
-                </div>
-
-                <div class="modal-field modal-field-comment">
-                    <div class="input-wrap">
-                        <label class="label-title" for="user-text">Comment</label>
-                        <textarea class="textarea-text" id="user-text" placeholder="Text input"></textarea>
-
-                    </div>
-
-                </div>
                 <div class="modal-field modal-field-policy">
                     <input class="input-check" type="checkbox" id="policy" value="true">
                     <label class="check-text" for="policy">I accept the terms and conditions of the <a href="#"> Privacy
                             Policy</a>
                     </label>
                 </div>
-
-
-
-                <div class="btn-modal-field">
-                    <button class="btn-modal" type="submit"><span class="btn-text-modal">Send</span></button>
-
-                </div>
             </form>
+
+            <button class="btn-modal" type="submit"><span class="btn-text-modal">Send</span></button>
+
+
 
 
         </div>
