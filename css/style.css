@@ -326,7 +326,8 @@ h3 {
 .features-list {
     display: flex;
     flex-direction: column;
-    gap: 24px;
+    row-gap: 72px;
+    margin-bottom: 96px;
 }
 
 @media screen and (min-width: 768px) {
@@ -906,6 +907,13 @@ li {
     color: #2E2F42;
 }
 
+.mob-menu-link {
+    color: #2E2F42;
+}
+
+.mob-menu-link:focus {
+    color: #404BBF;
+}
 
 .mob-menu-tel {
     font-weight: 500;
