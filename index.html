@@ -30,11 +30,19 @@
             </nav>
             <address class="address">
                 <ul class="contacts-list">
-                    <li><a href="mailto:info@devstudio.com" class="contact-info">info@devstudio.com</a></li>
-                    <li><a href="tel:+110001111111" class="contact-info">+11 (000) 111-11-11</a></li>
+                    <li><a href="mailto:info@devstudio.com"
+                            class="contact-info contact-info-first">info@devstudio.com</a></li>
+                    <li><a href="tel:+110001111111" class="contact-info contact-info-second">+11 (000) 111-11-11</a>
+                    </li>
                 </ul>
             </address>
+            <button class="burger-menu-btn">
+                <svg class="burger-icon-svg" width="24" height="24">
+                    <use href="./images/icons.svg#burger-menu"></use>
+                </svg>
+            </button>
         </div>
+
     </header>
 
 
@@ -445,7 +453,7 @@
     </footer>
 
 
-    <div class="backdrop is-open" data-modal>
+    <div class="backdrop is-open hidden" data-modal>
         <div class="modal">
             <button type="button" class="modal-button" data-modal-close>
                 <svg class="modal-icon-close" width="8" height="8">
