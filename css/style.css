@@ -974,8 +974,7 @@ li {
     pointer-events: none;
 }
 
-html.on-scroll,
-body.on-scroll {
+.on-scroll {
     overflow: hidden;
-    height: 100%;
+    height: 100vh;
 }

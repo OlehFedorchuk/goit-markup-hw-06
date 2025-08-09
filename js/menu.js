@@ -5,12 +5,18 @@
     menu: document.querySelector('[data-menu]'),
   };
 
-  refs.openMenuBtn.addEventListener('click', toggleMenu);
-  refs.closeMenuBtn.addEventListener('click', toggleMenu);
+  refs.openMenuBtn.addEventListener('click', openMenu);
+  refs.closeMenuBtn.addEventListener('click', closeMenu);
 
-  function toggleMenu() {
-    refs.menu.classList.toggle('is-hidden');
-    document.body.classList.toggle('on-scroll');
-    document.documentElement.classList.toggle('on-scroll');
+  function openMenu() {
+    refs.menu.classList.remove('is-hidden');
+    document.body.classList.add('on-scroll');
+    document.documentElement.classList.add('on-scroll');
+  }
+
+  function closeMenu() {
+    refs.menu.classList.add('is-hidden');
+    document.body.classList.remove('on-scroll');
+    document.documentElement.classList.remove('on-scroll');
   }
 })();
