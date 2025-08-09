@@ -345,7 +345,10 @@ h3 {
     .features-list {
         flex-direction: row;
         flex-wrap: wrap;
-        margin: 16px;
+        column-gap: 24px;
+        row-gap: 72px;
+        margin-bottom: 76px;
+
 
 
     }
@@ -358,7 +361,7 @@ h3 {
 
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1156px) {
     .features-item {
         flex: 1 1 calc(25% - 24px);
         /* 4 в рядок */
