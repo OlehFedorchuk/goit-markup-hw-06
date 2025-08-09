@@ -756,6 +756,7 @@ input::placeholder {
     margin-bottom: 16px;
 }
 
+
 @media screen and (min-width: 768px) {
     .second-footer-container {
         display: flex;
@@ -974,9 +975,10 @@ li {
     pointer-events: none;
 }
 
-.on-scroll {
+.no-scroll {
     overflow: hidden;
-    height: 100vh;
+    height: 100hv;
+
 }
 
 
