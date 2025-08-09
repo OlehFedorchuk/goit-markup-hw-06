@@ -854,3 +854,128 @@ input::placeholder {
         gap: 24px;
     }
 }
+
+
+/* menu */
+ul,
+li {
+    list-style-type: none;
+}
+
+.mob-menu>.mob-container {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    overflow: auto;
+}
+
+.mob-container {
+    padding: 24px 16px 40px 16px;
+    max-width: 320px;
+    background-color: #ecedf4;
+}
+
+.mob-menu {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #ffffff;
+    z-index: 1;
+
+}
+
+.menu-close {
+    display: block;
+    margin-left: auto;
+    margin-bottom: 16px;
+}
+
+
+.mob-menu-item {
+    margin-bottom: 40px;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: calc(40/36);
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+}
+
+
+.mob-menu-tel {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: calc(40/36);
+    color: #4D5AE5;
+    margin-bottom: 40px;
+}
+
+.mob-menu-email {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: calc(24/20);
+    letter-spacing: 0.02em;
+    color: #434455;
+    margin-bottom: 48px;
+}
+
+
+.mob-soc-list {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+
+}
+
+.mob-soc-icon {
+    fill: #F4F4FD;
+}
+
+.mob-soc-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #4D5AE5;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.menu-close {
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    background: #E7E9FC;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-bottom: 24px;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+}
+
+.menu-close:is(:hover, :focus) {
+    border: #404BBF;
+    background-color: #404BBF;
+    fill: #ffffff
+}
+
+.mob-menu-color {
+    color: #404BBF;
+}
+
+.is-hidden {
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+}
+
+html.on-scroll,
+body.on-scroll {
+    overflow: hidden;
+    height: 100%;
+}
