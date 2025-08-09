@@ -9,13 +9,13 @@
   refs.closeMenuBtn.addEventListener('click', closeMenu);
 
   function openMenu() {
-    refs.menu.classList.remove('is-hidden');
+    refs.menu.classList.remove('hidden');
     document.body.classList.add('on-scroll');
     document.documentElement.classList.add('on-scroll');
   }
 
   function closeMenu() {
-    refs.menu.classList.add('is-hidden');
+    refs.menu.classList.add('hidden');
     document.body.classList.remove('on-scroll');
     document.documentElement.classList.remove('on-scroll');
   }
