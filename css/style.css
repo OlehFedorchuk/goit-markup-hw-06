@@ -319,7 +319,7 @@ h3 {
     letter-spacing: 0.02em;
     color: #434455;
     font-style: normal;
-    font-weight: 400;
+    font-weight: 500;
 
 }
 
@@ -370,6 +370,12 @@ h3 {
 
     .features-section {
         padding: 120px 0 120px;
+    }
+
+    .features-text {
+        font-weight: 400;
+
+
     }
 
     .features-item {
