@@ -303,7 +303,7 @@ h3 {
     padding: 96px 16px;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 768px) and (min-resolution: 2dppx) {
     .button {
         margin: 36px auto auto;
     }
@@ -322,7 +322,7 @@ h3 {
     }
 }
 
-@media screen and (min-width: 1158px) {
+@media screen and (min-width: 1158px) and (min-resolution: 2dppx) {
     .button {
         margin: 48px auto auto;
     }
