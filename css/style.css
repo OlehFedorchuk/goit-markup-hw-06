@@ -304,6 +304,15 @@ h3 {
 }
 
 @media screen and (min-width: 768px) and (min-resolution: 2dppx) {
+    .hero {
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7),
+                rgba(46, 47, 66, 0.7)),
+            image-set(url('../images/Dark-tab-bg.jpg') 1x,
+                url('../images/Dark-tab-bg@2x.jpg') 2x);
+    }
+}
+
+@media screen and (min-width: 768px) {
     .button {
         margin: 36px auto auto;
     }
@@ -314,26 +323,29 @@ h3 {
     }
 
     .hero {
-        background-image: linear-gradient(rgba(46, 47, 66, 0.7),
-                rgba(46, 47, 66, 0.7)),
-            image-set(url('../images/Dark-tab-bg.jpg') 1x,
-                url('../images/Dark-tab-bg@2x.jpg') 2x);
         padding: 112px 0 112px;
     }
 }
 
 @media screen and (min-width: 1158px) and (min-resolution: 2dppx) {
-    .button {
-        margin: 48px auto auto;
-    }
-
     .hero {
         background-image: linear-gradient(rgba(46, 47, 66, 0.7),
                 rgba(46, 47, 66, 0.7)),
             image-set(url('../images/people-lep-office.jpg') 1x,
                 url('../images/people-lep-office@2x.jpg') 2x);
+    }
+}
+
+@media screen and (min-width: 1158px) {
+    .button {
+        margin: 48px auto auto;
+    }
+
+    .hero {
+
         padding: 188px 0 188px;
     }
+
 }
 
 /* Feateres */
